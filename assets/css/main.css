@@ -1,2 +1,11 @@
 
 @import "tailwindcss";
+  
+.main-shadow{
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+     border-color: rgb(235 235 235 / var(--tw-border-opacity));
+}
+body{
+    box-sizing: border-box;
+}
+
