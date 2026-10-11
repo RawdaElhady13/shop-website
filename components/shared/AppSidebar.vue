@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="lg:w-[7.31%] w-screen lg:h-screen h-18 relative  lg:rounded-none rounded-tl-4xl  rounded-tr-4xl  lg:border-none lg:shadow-none border border-[#EBEBEB] shadow-[0px_2px_8px_0px_rgba(0,0,0,0.06),0px_-1px_20px_0px_#F2F4F5,0_0_0_20px_#FCFCFC] flex lg:flex-col flex-row order-2 lg:order-1 items-center lg:justify-between justify-center lg:py-5 py-3 px-4 lg:px-0 bg-[#fcfcfc] gap-5 "
+    class="lg:w-[7.31%] w-screen lg:h-screen h-18   sticky top-0 bottom-0 self-start shrink-0  lg:rounded-none rounded-tl-4xl rounded-tr-4xl lg:border-none lg:shadow-none border border-[#EBEBEB] shadow-[0px_2px_8px_0px_rgba(0,0,0,0.06),0px_-1px_20px_0px_#F2F4F5,0_0_0_20px_#FCFCFC] flex lg:flex-col flex-row order-2 lg:order-1 items-center lg:justify-between justify-center lg:py-5 py-3 px-4 lg:px-0 bg-[#fcfcfc]"
   >
     <div class="logo hidden lg:block">
       <NuxtLink :to="shared.home"
@@ -18,8 +18,10 @@
           ></path></svg
       ></NuxtLink>
     </div>
-    <div class="icons flex flex-row lg:flex-col gap-8  text-[#a6a6a6]">
-      <NuxtLink :to="shared.home"
+    <div class="icons flex flex-row lg:flex-col gap-8 text-[#a6a6a6]">
+      <NuxtLink
+        :to="shared.home"
+        class="hover:text-[#000000] focus:text-[#000000]"
         ><svg
           width="24"
           height="24"
@@ -36,7 +38,9 @@
             fill="currentColor"
           ></path></svg
       ></NuxtLink>
-      <NuxtLink :to="shared.categories"
+      <NuxtLink
+        :to="shared.categories"
+        class="hover:text-[#000000] focus:text-[#000000]"
         ><svg
           width="24"
           height="24"
@@ -53,7 +57,10 @@
             fill="currentColor"
           ></path></svg
       ></NuxtLink>
-      <NuxtLink :to="shared.cart">
+      <NuxtLink
+        :to="shared.cart"
+        class="hover:text-[#000000] focus:text-[#000000]"
+      >
         <svg
           width="24"
           height="24"
@@ -71,7 +78,9 @@
           ></path>
         </svg>
       </NuxtLink>
-      <NuxtLink :to="shared.offers"
+      <NuxtLink
+        :to="shared.offers"
+        class="hover:text-[#000000] focus:text-[#000000]"
         ><svg
           width="24"
           height="24"
@@ -88,7 +97,10 @@
             fill="currentColor"
           ></path></svg
       ></NuxtLink>
-      <NuxtLink :to="shared.saved">
+      <NuxtLink
+        :to="shared.saved"
+        class="hover:text-[#000000] focus:text-[#000000]"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

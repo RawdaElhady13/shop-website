@@ -1,1 +1,14 @@
-<template></template>
+<template>
+<footer>
+
+
+
+
+</footer>
+
+
+
+
+
+
+</template>
